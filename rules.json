@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "||x.com/*",
+      "resourceTypes": ["main_frame"]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "host": "xcancel.com"
+        }
+      }
+    }
+  }
+]
